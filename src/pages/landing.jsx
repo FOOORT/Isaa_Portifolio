@@ -1,5 +1,6 @@
 import HamburgerMenu from "@/components/common/hamburgerMenu";
-import Hero from "@/components/hero/hero";
+import About from "@/components/landing/about";
+import Hero from "@/components/landing/hero";
 import React from "react";
 
 const Landing = () => {
@@ -7,6 +8,7 @@ const Landing = () => {
     <div className="min-h-screen">
       <HamburgerMenu />
       <Hero />
+      <About/>
     </div>
   );
 };
