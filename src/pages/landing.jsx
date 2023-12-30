@@ -8,7 +8,7 @@ const Landing = () => {
     <div className="min-h-screen">
       <HamburgerMenu />
       <Hero />
-      <About/>
+      {/* <About/> */}
     </div>
   );
 };
