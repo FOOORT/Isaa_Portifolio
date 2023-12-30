@@ -18,7 +18,6 @@ const About = () => {
           Developer with strong focus on producing high quality & impactifully
           digital experience
         </div>
-        <Scroll />
       </div>
       <motion.div
         animate={{
@@ -42,7 +41,6 @@ const About = () => {
           product designer with focus on producing high quality & impactifully
           digital experience
         </div>
-        <Scroll />
       </motion.div>
     </section>
   );
