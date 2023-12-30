@@ -1,13 +1,13 @@
 import HamburgerMenu from "@/components/common/hamburgerMenu";
 // import About from "@/components/hero/about";
-import Hero from "@/components/hero/hero";
+import HomePage from "@/components/homepage/homePage";
 import React from "react";
 
 const Landing = () => {
   return (
     <div className="min-h-screen">
       <HamburgerMenu />
-      <Hero />
+      <HomePage />
       {/* <About/> */}
     </div>
   );
